@@ -29,15 +29,15 @@ buttons.forEach(button => {
                 
                     ){
                         result[1].innerText = 'Congratulations You Won the Game!'  
-                        result[1].style.color='green'
+                        result[1].style.color='blue'
                     
                     }
                     else {
                         result[1].innerText = 'Sorry Computer Win the Game over You'  
-                        result[1].style.color='yellow'
+                        result[1].style.color='orange'
                       
                         result[1].style.width='400px'
-                        result[1].style.backgroundColor='blue'
+                        
                     }
             
         }
