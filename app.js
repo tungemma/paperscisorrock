@@ -29,7 +29,7 @@ buttons.forEach(button => {
                 
                     ){
                         result[1].innerText = 'Congratulations You Won the Game!'  
-                        result[1].style.color='blue'
+                        result[1].style.color='green'
                     
                     }
                     else {
