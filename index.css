@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    background-color: beige;
+}
+
+.options {
+display: flex;
+margin-top: 40px;
+width: 400px;
+justify-content: space-between;
+align-items: center;
+height: 70px;
+background: #1183c5;
+}
+.options>button {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(84, 67, 100);
+    font-size: 18px;
+    color: azure;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 3px;
+
+}
+
+.results {
+    height: 150px;
+    margin-top: 40px;
+    background-color: aquamarine;
+    width: 400px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.results>div {
+    margin: 20px;
+
+}
+
+#playerResult, #computerResult {
+ margin-top: 40px;
+ color: azure;
+ font-size: 16px;
+ font-weight: 700;
+}
